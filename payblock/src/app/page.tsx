@@ -21,7 +21,7 @@ export default function Home() {
           </div>
 
           <div className="">
-          <h1 className="text-xl pt-14 mb-6 text-center sm:text-start">PayBlock oferece:</h1>
+          <h1 className="text-xl sm:mt-20 mt-8 mb-6 text-center sm:text-start">PayBlock oferece:</h1>
           <div className="px-[70px] sm:px-0 text-xs sm:text-sm ">
             <p>Criações de carteiras e acesso na rede ethereum</p>
             <p>Transações de ativos como ether, tokens, nft</p>
@@ -32,7 +32,7 @@ export default function Home() {
             
             <Link
             className="text-cyan-600 underline flex flex-row"
-            href={'/'}
+            href={'/signup'}
             >Criar conta<FaArrowRight className="ml-1" /></Link>
             
             </p>
@@ -47,6 +47,7 @@ export default function Home() {
         </div>
         
       </MainContainer>
+      
       
     
   );

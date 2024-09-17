@@ -7,14 +7,22 @@ interface PropsMainContainer {
 
 const MainContainer = (props:PropsMainContainer) => {
   return (
-    <main className=" bg-stone-950 text-white">
+    <div className="bg-stone-950 text-white overflow-x-hidden">
         <Header />
-        <div className="flex justify-center items-center h-screen">
+        <main className="container flex justify-center items-center h-screen">
+        
+        
             
             {props.children}
-        </div>
+        
         
     </main>
+    <footer className='mt-32 md:mt-64'>
+        <div className="text-white p-32 text-center">Footer</div>
+      </footer>
+
+    </div>
+    
   )
 }
 
